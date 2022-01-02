@@ -31,7 +31,8 @@
       });
     }
 
-    window.addEventListener('scroll', debounce(checkSlide));
+window.addEventListener('scroll', debounce(checkSlide));
+    
 //  dark mode
 
 document.querySelector(".btn").addEventListener("click", () => {
