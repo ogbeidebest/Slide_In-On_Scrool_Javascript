@@ -37,8 +37,8 @@
 document.querySelector(".btn").addEventListener("click", () => {
   document.body.classList.toggle("dark");
   if (document.body.classList.contains("dark")) {
-    document.querySelector(".btn").innerHTML = "Dark";
+    document.querySelector(".btn").innerHTML = "Dark Mood";
   } else {
-    document.querySelector(".btn").innerHTML = "Light";
+    document.querySelector(".btn").innerHTML = "Light Mood";
   }
 });
